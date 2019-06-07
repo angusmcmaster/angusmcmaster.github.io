@@ -1,0 +1,103 @@
+<!--Arwin Chan 2019-->
+<!DOCTYPE html>
+<html>
+<title>Angus McMaster</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Garamond, sans-serif; 
+  color: white; 
+}
+header {
+    background-image: url('./12.gif');
+    background-size: cover;
+    padding:0;
+    margin:-50px auto;
+}
+h1 {
+  font-family: Arial Black, sans-serif; 
+  letter-spacing: 0px
+}
+.w3-row-padding img {
+  margin-bottom: 12px
+}
+</style>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+      // Store hash
+      var hash = this.hash;
+      // Using jQuery's animate() method to add smooth page scroll
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        // window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<!-- !PAGE CONTENT! -->
+<div id="home" class="w3-content" style="max-width:1500px">
+<!-- Header -->
+<header class="w3-center" style="padding:300px">
+  <!--FIRE SCRIPT
+  <script type="text/javascript">
+  (function() {
+    var blinks = document.getElementsByTagName('blink');
+    var visibility = 'hidden';
+    window.setInterval(function() {
+      for (var i = blinks.length - 1; i >= 0; i--) {
+        blinks[i].style.visibility = visibility;
+      }
+      visibility = (visibility === 'visible') ? 'hidden' : 'visible';
+    }, 500);
+  })();
+  </script>-->
+  <h1 style="font-size:70px;"><strong>ANGUS McMASTER</strong></h1>
+  <h1 class="w3-xlarge" style="font-size:70px;"><strong>HEAVY.SWEAT PICTURES</strong></h1>
+  <div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+      <a href="#dieyoung" class="w3-bar-item w3-button">ENTER</a>
+      <!--<a href="#sweat" class="w3-bar-item w3-button">SWEAT</a>
+      <a href="#celeste" class="w3-bar-item w3-button">CELESTE</a>
+      <a href="#" class="w3-bar-item w3-button">Weddings</a>-->
+    </div>
+  </div>
+</header>
+<!-- Grid -->
+<div class="w3-row-padding" style="margin-bottom:16px">
+  <div class="w3-full" style="padding:100px">
+    <!--<iframe width="100%" height="600px" src="https://www.youtube.com/embed/Bj1-8xXWc3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+    <div id="dieyoung" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/318335104?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <br /><br />
+    <div id="sweat" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/132111164?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    <br /><br />
+    <div id="celeste" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/217588241?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  </div>
+</div>
+<!-- End Page Content -->
+</div>
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-black w3-center w3-large"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p><a a href="#home">HEAVY SWEAT PICTURES 2019</a></p>
+</footer>
+
+</body>
+</html>
